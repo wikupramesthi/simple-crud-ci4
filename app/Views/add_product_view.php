@@ -27,11 +27,11 @@
 
                             <div class="form-group">
                                 <label>Product Name</label>
-                                <input type="text" class="form-control" name="product_name" placeholder="Product Name">
+                                <input type="text" class="form-control" name="product_name" placeholder="Product Name" required>
                             </div>
                             <div class="form-group">
                                 <label>Product Price</label>
-                                <input type="text" class="form-control" name="product_price" placeholder="Product Proce">
+                                <input type="text" class="form-control" name="product_price" placeholder="Product Price" required>
                             </div>
 
                             <button type="submit" class="btn btn-primary">Save</button>

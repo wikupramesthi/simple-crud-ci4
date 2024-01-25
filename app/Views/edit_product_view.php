@@ -29,11 +29,11 @@
 
                             <div class="form-group">
                                 <label>Product Name</label>
-                                <input type="text" name="product_name" value="<?= $product->product_name; ?>">
+                                <input type="text" name="product_name" value="<?= $product->product_name; ?>" require>
                             </div>
                             <div class="form-group">
                                 <label>Product Price</label>
-                                <input type="text" name="product_price" value="<?= $product->product_price; ?>">
+                                <input type="text" name="product_price" value="<?= $product->product_price; ?>" require>
                             </div>
                             <button type="submit" class="btn btn-primary">Update</button>
                         </form>
